@@ -4,7 +4,12 @@
 <title>Tan Van Nguyen's Resume</title>
 <meta charset="utf-8"/>
 <style>
-<!--Splitting in half test-->
+<!--Div Test-->
+body {
+  font-family: Arial;
+  color: white;
+}
+
 .split {
   height: 100%;
   width: 50%;
@@ -14,7 +19,30 @@
   overflow-x: hidden;
   padding-top: 20px;
 }
-    </style>
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  background-color: red;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+</style>
     </head>
 <body>
 <h1>Tan Van Nguyen</h1>
